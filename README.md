@@ -74,7 +74,7 @@ OBS: Neste projeto utilizei a IDE, baixada no site 'https://code.visualstudio.co
         @primeiro_teste = HTTParty.get('https://portal.vr.com.br/api-web/comum/enumerations/VRPAT')
         puts @primeiro_teste
     end
- end
+    end
 
 
 # Validando a requisição e os dados
@@ -102,7 +102,7 @@ describe 'Dado que acesso o endpoint da consulta exposto no nosso portal' do
         expect(@chave_typeOfEstablishment.parsed_response['typeOfEstablishment'])
 
     end
-end
+    end
 
 15 - No terminal, executar o comando 'rspec spec/validando_resposta_spec.rb'
 
